@@ -1,32 +1,125 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pokemons {
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
+
+.pokemon-picture {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.pokemon {
+  width: 180px;
+  height: 240px;
+  padding: 20px;
+  border: 1px solid #ebeef4;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+p {
+  
+}
+
+/**************** Type icons (colors) *****************/
+
+.type {
+  display: inline-block;  
+  width: 65px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: .75rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.type-normal {
+  background-color: #aa9;
+}
+
+.type-fire {
+  background-color: #f42;
+}
+
+.type-water {
+  background-color: #39f;
+}
+
+.type-electric {
+  background-color: #fc3;
+}
+
+.type-grass {
+  background-color: #7c5;
+}
+
+.type-ice {
+  background-color: #6cf;
+}
+
+.type-fighting {
+  background-color: #b54;
+}
+
+.type-poison {
+  background-color: #a59;
+}
+
+.type-ground {
+  background-color: #db5;
+}
+
+.type-flying {
+  background-color: #89f;
+}
+
+.type-psychic {
+  background-color: #f59;
+}
+
+.type-bug {
+  background-color: #ab2;
+}
+
+.type-rock {
+  background-color: #ba6;
+}
+
+.type-ghost {
+  background-color: #66b;
+}
+
+.type-dragon {
+  background-color: #76e;
+}
+
+.type-dark {
+  background-color: #754;
+}
+
+.type-steel {
+  background-color: #aab;
+}
+
+.type-fairy {
+  background-color: #e9e;
+}
+
