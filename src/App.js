@@ -34,7 +34,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Pokemon List</h1>
+        <h1>List of Pokemon Charakters</h1>
         <div className="pokemons">
           <PokemonList
             pokemons={this.state.pokemons}

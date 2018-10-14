@@ -8,7 +8,7 @@ class Pokemon extends React.Component {
 		const information = " #" + this.props.pokemon.num + ' '
 		 + this.props.pokemon.name;
 
-		const type = this.props.pokemon.type;
+		//const type = this.props.pokemon.type;
 
 		const picture = {
 		 	backgroundImage: `url('${this.props.pokemon.img}')`
